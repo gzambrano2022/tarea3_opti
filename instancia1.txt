@@ -1,0 +1,31 @@
+========================================================================================
+CASO: BioSur Distribución Farmacéutica
+INSTANCIA 1: BioSur_Urbana_Clustered_15C (Base C101 adaptada)
+DESCRIPCIÓN: Red con farmacias agrupadas espacialmente y alta tasa de ocupación por vehículo.
+========================================================================================
+METADATA
+HORIZON_DAYS: 3
+VEHICLES_PER_DAY: 3
+VEHICLE_CAPACITY_Q: 95
+
+DEPOT
+ID   NAME                    XCOORD   YCOORD   READY_TIME   DUE_DATE   SERVICE_TIME
+0    Centro_Distribucion     40       50       0            1200       0
+
+CUSTOMERS
+ID   NAME                    XCOORD   YCOORD   DEMAND_D1  DEMAND_D2  DEMAND_D3  READY_TIME  DUE_DATE  SERVICE_TIME
+1    Farmacia_Central_1      45       68       25         0          25         600         1080      45
+2    Clinica_Norte_2         45       70       30         30         0          550         1000      45
+3    Farmacia_Ahumada_3      42       66       20         20         20         0           350       45
+4    Drogueria_Sur_4         42       68       0          25         25         500         950       45
+5    Farmacia_Cruz_5         42       65       20         20         0          0           300       45
+6    Clinica_Especialidad_6  40       69       35         0          35         400         850       45
+7    Farmacia_Salcobrand_7   40       66       0          30         30         20          450       45
+8    Hospital_Comunal_8      38       68       25         25         25         100         520       45
+9    Farmacia_Popular_9      38       70       0          30         0          350         800       45
+10   Farmacia_San_Juan_10    35       66       25         0          25         200         650       45
+11   Centro_Salud_11         35       69       20         20         0          280         700       45
+12   Clinica_Andes_12        25       85       30         0          30         450         900       45
+13   Farmacia_Comunitaria_13 22       75       0          35         35         0           350       45
+14   Farmacia_RedSalud_14    22       85       15         15         15         350         820       45
+15   Farmacia_BioBio_15      20       80       35         25         0          200         650       45
