@@ -1,0 +1,82 @@
+
+Gurobi 13.0.3 (win64) logging started Mon Nov  9 23:31:21 2026
+
+Set parameter LogFile to value "C:\Users\gznov\Desktop\tarea3_opti\tarea_convrp\log_tune_Instancia2.txt"
+Gurobi Optimizer version 13.0.3 build v13.0.3rc0 (win64 - Windows 11+.0 (26200.2))
+
+CPU model: 12th Gen Intel(R) Core(TM) i5-12450H, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 12 logical processors, using up to 1 threads
+
+Non-default parameters:
+TimeLimit  300
+Threads  1
+TuneTimeLimit  1800
+
+Start tuning.
+Tune 34 parameters.
+
+Solving model using baseline parameter set with TimeLimit=300s
+
+Total tuning time limit is 1800s
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 1...
+
+	Threads 1 (fixed)
+
+Solving conVRP_BioSur (Min) with random seed #1 ... MIP gap 0.01%
+Solving conVRP_BioSur (Min) with random seed #2 ... MIP gap 0.01%
+Solving conVRP_BioSur (Min) with random seed #3 ... MIP gap 0.01%
+
+Summary candidate parameter set 1 
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 conVRP_Bi   183.59s  199.36s  219.82s  200.92s    14.83  219.82s
+
+-------------------------------------------------------------------------------
+Begin tuning (baseline mean runtime 200.92s)...
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 2...
+
+	Threads 1 (fixed)
+	VarBranch 0
+
+Solving conVRP_BioSur (Min) with random seed #1 ... runtime 186.54s
+Solving conVRP_BioSur (Min) with random seed #2 ... runtime 196.15s
+Solving conVRP_BioSur (Min) with random seed #3 ... runtime 230.40s
+
+Summary candidate parameter set 2 
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 conVRP_Bi   186.54s  196.15s  230.40s  204.37s    18.82  230.40s
+
+Progress so far:
+  baseline: mean runtime 200.92s (parameter set 1, 0 non-defaults)
+  best:     mean runtime 200.92s (parameter set 1, 0 non-defaults)
+Total elapsed tuning time 1216s (584s remaining, 1 running jobs)
+
+-------------------------------------------------------------------------------
+
+Testing candidate parameter set 3...
+
+	Threads 1 (fixed)
+	MIPFocus 2
+
+Solving conVRP_BioSur (Min) with random seed #1 ... runtime 245.74s
+
+
+Tune time limit reached
+
+-------------------------------------------------------------------------------
+
+Tested 2 parameter sets in 1461.64s
+Total optimization run time for up to 1 concurrent runs: 1461.60s
+
+Baseline parameter set: mean runtime 200.92s
+
+	Threads 1 (fixed)
+
+ # Name              0        1        2      Avg  Std Dev      Max
+ 0 conVRP_Bi   183.59s  199.36s  219.82s  200.92s    14.83  219.82s
+
+Unable to improve on baseline parameter set.
+

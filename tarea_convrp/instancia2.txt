@@ -1,0 +1,31 @@
+========================================================================================
+CASO: BioSur Distribución Farmacéutica
+INSTANCIA 2: BioSur_Interurbana_Mixed_15C (Base RC101 adaptada)
+DESCRIPCIÓN: Red semi-dispersa con dos clústeres geográficos y ventanas temporales solapadas.
+========================================================================================
+METADATA
+HORIZON_DAYS: 3
+VEHICLES_PER_DAY: 3
+VEHICLE_CAPACITY_Q: 100
+
+DEPOT
+ID   NAME                    XCOORD   YCOORD   READY_TIME   DUE_DATE   SERVICE_TIME
+0    Centro_Distribucion     40       50       0            1200       0
+
+CUSTOMERS
+ID   NAME                    XCOORD   YCOORD   DEMAND_D1  DEMAND_D2  DEMAND_D3  READY_TIME  DUE_DATE  SERVICE_TIME
+1    Farmacia_Central_1      45       68       20         20         0          50          650       40
+2    Clinica_Norte_2         40       69       0          25         25         0           600       40
+3    Farmacia_Ahumada_3      22       75       25         0          25         0           550       40
+4    Drogueria_Sur_4         20       80       20         20         20         150         750       40
+5    Farmacia_Cruz_5         30       50       25         25         0          0           500       40
+6    Clinica_Especialidad_6  25       52       0          30         30         0           600       40
+7    Farmacia_Salcobrand_7   10       35       30         0          30         100         700       40
+8    Hospital_Comunal_8      10       40       15         15         15         0           550       40
+9    Farmacia_Popular_9      35       30       0          30         0          50          650       40
+10   Farmacia_San_Juan_10    33       32       25         0          25         0           530       40
+11   Centro_Salud_11         44       5        30         30         0          150         800       40
+12   Clinica_Andes_12        42       10       0          25         25         50          700       40
+13   Farmacia_Comunitaria_13 40       15       20         20         20         0           500       40
+14   Farmacia_RedSalud_14    50       35       25         0          25         100         700       40
+15   Farmacia_BioBio_15      50       40       20         20         0          30          630       40

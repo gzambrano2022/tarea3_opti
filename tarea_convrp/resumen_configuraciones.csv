@@ -1,0 +1,13 @@
+instancia,config,obj,gap_pct,tiempo_s,estado
+Instancia 1,Baseline,592.36,0.01,352.6,óptimo
+Instancia 1,Cuts=0,592.36,0.01,478.0,óptimo
+Instancia 1,Presolve=0,592.36,0.0,75.9,óptimo
+Instancia 1,MIPFocus=1,592.36,0.01,247.3,óptimo
+Instancia 1,MIPFocus=3,592.36,0.0,126.2,óptimo
+Instancia 1,Heuristics=0,592.36,0.0,73.1,óptimo
+Instancia 2,Baseline,762.76,0.01,293.7,óptimo
+Instancia 2,Cuts=0,762.76,18.09,600.0,límite de tiempo
+Instancia 2,Presolve=0,762.76,0.01,508.4,óptimo
+Instancia 2,MIPFocus=1,762.76,14.2,600.0,límite de tiempo
+Instancia 2,MIPFocus=3,762.76,4.83,600.0,límite de tiempo
+Instancia 2,Heuristics=0,762.76,0.01,237.6,óptimo
