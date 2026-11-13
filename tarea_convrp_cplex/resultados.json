@@ -1,0 +1,92 @@
+{
+  "Instancia 1": {
+    "LP": 118.00999999999999,
+    "Baseline": {
+      "obj": 592.36,
+      "gap": 9.437628284448135e-05,
+      "cota": 592.3040952650942,
+      "tiempo": 163.28200000000652,
+      "estado": "integer optimal, tolerance"
+    },
+    "Cuts=0": {
+      "obj": 592.36,
+      "gap": 8.689757710769795e-05,
+      "cota": 592.3085253512245,
+      "tiempo": 357.25,
+      "estado": "integer optimal, tolerance"
+    },
+    "Presolve=0": {
+      "obj": 592.36,
+      "gap": 8.091280080163173e-05,
+      "cota": 592.3120704933172,
+      "tiempo": 264.96800000000803,
+      "estado": "integer optimal, tolerance"
+    },
+    "MIPFocus=1": {
+      "obj": 592.36,
+      "gap": 8.080610672487858e-05,
+      "cota": 592.3121336946205,
+      "tiempo": 77.92199999999139,
+      "estado": "integer optimal, tolerance"
+    },
+    "MIPFocus=3": {
+      "obj": 592.3599999999999,
+      "gap": 9.966876696419408e-05,
+      "cota": 592.300960209201,
+      "tiempo": 397.8429999999935,
+      "estado": "integer optimal, tolerance"
+    },
+    "Heuristics=0": {
+      "obj": 592.3600000000001,
+      "gap": 7.765389260813489e-05,
+      "cota": 592.3140009401748,
+      "tiempo": 159.42200000000594,
+      "estado": "integer optimal, tolerance"
+    }
+  },
+  "Instancia 2": {
+    "LP": 397.83,
+    "Baseline": {
+      "obj": 762.7599999999999,
+      "gap": 0.1272920320527365,
+      "cota": 665.6667296314419,
+      "tiempo": 600.0630000000092,
+      "estado": "time limit exceeded"
+    },
+    "Cuts=0": {
+      "obj": 762.7599999999998,
+      "gap": 0.26875672405964046,
+      "cota": 557.7631211562416,
+      "tiempo": 600.0309999999881,
+      "estado": "time limit exceeded"
+    },
+    "Presolve=0": {
+      "obj": 762.7599999999999,
+      "gap": 0.13722309207290037,
+      "cota": 658.0917142904607,
+      "tiempo": 600.0310000000027,
+      "estado": "time limit exceeded"
+    },
+    "MIPFocus=1": {
+      "obj": 762.7599999999999,
+      "gap": 0.13200761121629578,
+      "cota": 662.0698744686449,
+      "tiempo": 600.0309999999881,
+      "estado": "time limit exceeded"
+    },
+    "MIPFocus=3": {
+      "obj": 762.7599999999998,
+      "gap": 0.11682194215003766,
+      "cota": 673.6528954056254,
+      "tiempo": 600.0159999999887,
+      "estado": "time limit exceeded"
+    },
+    "Heuristics=0": {
+      "obj": 762.7599999999998,
+      "gap": 0.11493638234829877,
+      "cota": 675.0911249999999,
+      "tiempo": 600.0159999999887,
+      "estado": "time limit exceeded"
+    }
+  }
+}

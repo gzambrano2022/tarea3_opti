@@ -1,0 +1,5 @@
+CPLEX Parameter File Version 22.2.0.0
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_MIP_Strategy_VariableSelect             4
+CPXPARAM_MIP_Strategy_Probe                      -1
+CPXPARAM_Tune_TimeLimit                          1800

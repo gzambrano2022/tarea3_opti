@@ -1,0 +1,44 @@
+{
+  "Baseline_seed1": {
+    "obj": 592.3600000000001,
+    "gap": 8.890711138780952e-05,
+    "cota": 592.3073349834984,
+    "tiempo": 198.56299999999464,
+    "estado": "integer optimal, tolerance"
+  },
+  "Baseline_seed2": {
+    "obj": 592.3600000000001,
+    "gap": 8.440813019120089e-05,
+    "cota": 592.3100000000001,
+    "tiempo": 167.70300000000861,
+    "estado": "integer optimal, tolerance"
+  },
+  "Baseline_seed3": {
+    "obj": 592.36,
+    "gap": 8.62543346501296e-05,
+    "cota": 592.3089063823267,
+    "tiempo": 163.15600000000268,
+    "estado": "integer optimal, tolerance"
+  },
+  "Cuts=0_seed1": {
+    "obj": 592.36,
+    "gap": 9.905382604014811e-05,
+    "cota": 592.3013244756069,
+    "tiempo": 270.0780000000086,
+    "estado": "integer optimal, tolerance"
+  },
+  "Cuts=0_seed2": {
+    "obj": 592.36,
+    "gap": 8.361260375101316e-05,
+    "cota": 592.310471238042,
+    "tiempo": 255.29700000000594,
+    "estado": "integer optimal, tolerance"
+  },
+  "Cuts=0_seed3": {
+    "obj": 592.3600000000001,
+    "gap": 9.974411389296826e-05,
+    "cota": 592.3009155766945,
+    "tiempo": 419.01600000000326,
+    "estado": "integer optimal, tolerance"
+  }
+}

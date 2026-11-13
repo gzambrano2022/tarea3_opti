@@ -1,0 +1,26 @@
+{
+  "Instancia 1": {
+    "obj": 592.36,
+    "gap": 9.437628284448135e-05,
+    "cota": 592.3040952650942,
+    "tiempo": 86.95300000000861,
+    "estado": "integer optimal, tolerance",
+    "parametros": {
+      "parameters.mip.limits.cutpasses": -1,
+      "parameters.mip.strategy.heuristicfreq": -1,
+      "parameters.mip.strategy.probe": -1,
+      "parameters.mip.strategy.variableselect": 4
+    }
+  },
+  "Instancia 2": {
+    "obj": 762.7599999999999,
+    "gap": 0.13277773398353543,
+    "cota": 661.4824556267051,
+    "tiempo": 600.0160000000033,
+    "estado": "time limit exceeded",
+    "parametros": {
+      "parameters.mip.strategy.probe": -1,
+      "parameters.mip.strategy.variableselect": 4
+    }
+  }
+}
